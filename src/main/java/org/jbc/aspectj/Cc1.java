@@ -8,13 +8,15 @@ public class Cc1 {
 		return "methode1";
 	}
 	
-	private String methode2() {
+	public String methode2() {
+		System.out.println("corps de la méthode2");
 		return "methode2";
 	}
-	private String methode3() {
-		return "methode3";
+	public String methode2(String arg) {
+		System.out.println("corps de la méthode2 avec arg");
+		return "methode2";
 	}
-	private String methode4() {
+	public String methode4() {
 		return "methode4";
 	}
 	
